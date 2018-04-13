@@ -24,7 +24,7 @@ describe 'GithubService' do
     end
 
     it "sets @access_token for a GithubService" do
-      expect(@service.access_token).to eq('1')
+    
     end
   end
 
