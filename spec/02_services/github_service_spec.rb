@@ -3,7 +3,8 @@ require_relative '../spec_helper'
 describe 'GithubService' do
   describe "initialization" do
     it "can be initialized without an `access_hash`" do
-    
+      service = GithubService.new
+      expect(service.access_token).to eq(nil)
     end
 
     it "can be initialized with an `access_hash`" do
