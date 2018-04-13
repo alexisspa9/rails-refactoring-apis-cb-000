@@ -19,13 +19,7 @@ describe 'GithubService' do
       @service.authenticate!(ENV["GITHUB_CLIENT"], ENV["GITHUB_SECRET"], "20")
     end
 
-    it "sends the correct POST request" do
-      
-    end
-
-    it "sets @access_token for a GithubService" do
-    
-    end
+  
   end
 
   describe '#get_username' do
